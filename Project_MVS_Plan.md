@@ -1,0 +1,132 @@
+## 1. Problem Statement & Solution Overview
+
+Local artisans struggle to showcase their products, manage customer orders, and share updated catalogs without relying on social media or complex e-commerce platforms. These tools are either too fragmented or too difficult to maintain, limiting their reach and growth.
+
+Our solution is a **mobile-first digital storefront app** built using **Flutter + Firebase** that allows artisans to easily list products, manage basic orders, and share their catalog with buyers through a simple, reliable interface. A mobile app is ideal because most artisans primarily use smartphones to manage their work and communicate with customers.
+
+**Target Users:** Local artisans and small creators
+
+**Why now:** Increasing demand for direct-to-customer selling and digital presence without platform dependency
+
+**How it helps:** Centralized product display, basic order management, and real-time updates in one app
+
+---
+
+## 2. Scope & Boundaries
+
+**In Scope (Sprint Deliverables):**
+- Firebase Authentication (Email/Password)
+- Artisan profile creation
+- Product catalog (Add, View, Edit products)
+- Basic order listing (view placed orders)
+- Core Flutter UI screens
+- Firestore integration for real-time data
+- APK build for demo
+
+**Out of Scope:**
+- Payment gateway integration
+- Push notifications
+- Advanced analytics
+- Admin dashboard
+- Multi-language support
+
+---
+
+## 3. Roles & Responsibilities
+
+| Role | Team Member | Key Responsibilities |
+|----|----|----|
+| Flutter & UI Lead | Faz | App architecture, UI implementation, navigation, state management |
+| Firebase & Backend Lead | Shubham | Firebase Auth, Firestore schema, security rules, backend integration |
+
+Both members will jointly handle testing, documentation, and final deployment.
+
+---
+
+## 4. Sprint Timeline (4 Weeks)
+
+| Week | Focus Area | Milestones / Deliverables |
+|----|----|----|
+| Week 1 | Planning & Setup | Finalize features, wireframes, Firebase project setup, Flutter folder structure |
+| Week 2 | Core Development | Auth flows, product CRUD in Firestore, core UI screens |
+| Week 3 | Integration & Testing | Connect UI to Firebase, form validation, error handling, testing on devices |
+| Week 4 | MVP Completion | UI polish, feature freeze, APK build, documentation, demo preparation |
+
+---
+
+## 5. Deployment & Testing Plan
+
+**Testing:**
+- Manual testing of authentication and product flows
+- Widget testing for core UI components
+- End-to-end testing for product add/view flows
+
+**Deployment:**
+- APK build using Flutter build tools
+- Firebase Hosting for optional web preview
+- APK shared via Google Drive for review
+
+---
+
+## 6. MVP (Minimum Viable Product)
+
+The MVP will demonstrate a functional artisan storefront with working backend integration.
+
+**MVP Features:**
+- User authentication (Sign Up / Login / Logout)
+- Artisan profile setup
+- Product catalog with Firestore CRUD
+- Home dashboard displaying listed products
+- Responsive Flutter UI
+- Working APK for demo
+
+**Core App Components:**
+- Splash Screen
+- Authentication Screens
+- Home/Dashboard
+- Add/Edit Product Screen
+- Profile Screen
+
+---
+
+## 7. Functional Requirements
+
+- Users can register and log in using Firebase Authentication
+- Artisans can create and update their profile
+- Products can be added, edited, and viewed in real-time
+- Data is securely stored and fetched from Firestore
+- UI reflects real-time database updates
+
+---
+
+## 8. Non-Functional Requirements
+
+- Performance: Smooth UI interactions under 200 ms
+- Scalability: Support at least 100 concurrent users
+- Security: Firestore rules tied to authenticated users
+- Usability: Simple, minimal UI suitable for non-technical users
+- Compatibility: Android-first, iOS-ready layouts
+
+---
+
+## 9. Success Metrics
+
+- All MVP features completed and functional
+- Successful Firebase Auth and Firestore integration
+- APK built and demo-ready
+- Clean GitHub repo with merged PRs
+- Positive mentor feedback during demo
+
+---
+
+## 10. Risks & Mitigation
+
+| Risk | Impact | Mitigation |
+|----|----|----|
+| Firebase configuration issues | Development delay | Use mock data initially to unblock UI work |
+| UI integration bugs | Demo issues | Early integration testing in Week 3 |
+| Time constraints | Feature cut | Strict MVP scope and feature freeze |
+
+---
+
+**This project plan focuses on delivering a stable, realistic MVP that demonstrates strong Flutter fundamentals and Firebase backend integration within the sprint timeline.**
