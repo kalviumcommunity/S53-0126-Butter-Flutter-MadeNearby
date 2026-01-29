@@ -6,3 +6,4 @@
 |2026-01-22|Learning Dart and Flutter |In progress|⌛|
 |2026-01-23|Learning Dart and Flutter |In progress|⌛|
 |2026-01-27|Learning Dart and Flutter |In progress|⌛|
+|2026-01-28|Flutter Setup Completed |Completed|✅|
